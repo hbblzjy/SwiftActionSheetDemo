@@ -12,6 +12,8 @@
 		E8A507441F1DE6DD0010EAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A507421F1DE6DD0010EAA7 /* Main.storyboard */; };
 		E8A507461F1DE6DD0010EAA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A507451F1DE6DD0010EAA7 /* Assets.xcassets */; };
 		E8A507491F1DE6DD0010EAA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A507471F1DE6DD0010EAA7 /* LaunchScreen.storyboard */; };
+		E8A507511F1DE7490010EAA7 /* JasonActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A507501F1DE7490010EAA7 /* JasonActionSheetView.swift */; };
+		E8A507531F1DED660010EAA7 /* DefineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A507521F1DED660010EAA7 /* DefineConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E8A507451F1DE6DD0010EAA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8A507481F1DE6DD0010EAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8A5074A1F1DE6DD0010EAA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A507501F1DE7490010EAA7 /* JasonActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JasonActionSheetView.swift; sourceTree = "<group>"; };
+		E8A507521F1DED660010EAA7 /* DefineConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				E8A5073E1F1DE6DD0010EAA7 /* AppDelegate.swift */,
 				E8A507401F1DE6DD0010EAA7 /* ViewController.swift */,
+				E8A507501F1DE7490010EAA7 /* JasonActionSheetView.swift */,
 				E8A507421F1DE6DD0010EAA7 /* Main.storyboard */,
 				E8A507451F1DE6DD0010EAA7 /* Assets.xcassets */,
 				E8A507471F1DE6DD0010EAA7 /* LaunchScreen.storyboard */,
 				E8A5074A1F1DE6DD0010EAA7 /* Info.plist */,
+				E8A507521F1DED660010EAA7 /* DefineConfig.swift */,
 			);
 			path = SwiftActionSheet;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A507411F1DE6DD0010EAA7 /* ViewController.swift in Sources */,
+				E8A507511F1DE7490010EAA7 /* JasonActionSheetView.swift in Sources */,
+				E8A507531F1DED660010EAA7 /* DefineConfig.swift in Sources */,
 				E8A5073F1F1DE6DD0010EAA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
